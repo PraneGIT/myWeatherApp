@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">weatherApp</string>
+
+    <string name="image_contentDescription">image</string>
+    <string name="miles_per_hour">miles/hour</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
