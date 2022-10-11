@@ -71,6 +71,7 @@ class MainActivity : AppCompatActivity() {
                         if(report!!.areAllPermissionsGranted()){
                             requestLocationData()
                         }
+
                         if(report.isAnyPermissionPermanentlyDenied){
                             Toast.makeText(this@MainActivity, "you've denied location", Toast.LENGTH_SHORT).show()
                         }
